@@ -11,6 +11,7 @@
 		59F699F42C2D32E600849538 /* WeakProxyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F699E92C2D32E500849538 /* WeakProxyLib.framework */; };
 		59F699F92C2D32E600849538 /* WeakProxyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F699F82C2D32E600849538 /* WeakProxyLibTests.swift */; };
 		59F699FA2C2D32E600849538 /* WeakProxyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F699EC2C2D32E500849538 /* WeakProxyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F69A042C2D341300849538 /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F69A032C2D341300849538 /* WeakProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		59F699ED2C2D32E500849538 /* WeakProxyLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WeakProxyLib.docc; sourceTree = "<group>"; };
 		59F699F32C2D32E600849538 /* WeakProxyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeakProxyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F699F82C2D32E600849538 /* WeakProxyLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxyLibTests.swift; sourceTree = "<group>"; };
+		59F69A032C2D341300849538 /* WeakProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				59F699EC2C2D32E500849538 /* WeakProxyLib.h */,
 				59F699ED2C2D32E500849538 /* WeakProxyLib.docc */,
+				59F69A032C2D341300849538 /* WeakProxy.swift */,
 			);
 			path = WeakProxyLib;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F69A042C2D341300849538 /* WeakProxy.swift in Sources */,
 				59F699EE2C2D32E500849538 /* WeakProxyLib.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 		59F69A012C2D32E600849538 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5WFF52AJ9;
@@ -427,6 +432,7 @@
 		59F69A022C2D32E600849538 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A5WFF52AJ9;
