@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   WeakProxyLib provides a weak proxy object that helps to avoid retain cycles in your iOS applications.
   DESC
 
-  s.homepage         = 'https://github.com/av-feaster'
+  s.homepage         = 'https://github.com/av-feaster/WeakProxy.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'av-feaster' => 'a4amanver15@gmail.com' }
   s.source           = { :git => 'https://github.com/av-feaster/WeakProxy.git', :tag => s.version.to_s }
