@@ -12,6 +12,9 @@
 		59F699F92C2D32E600849538 /* WeakProxyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F699F82C2D32E600849538 /* WeakProxyLibTests.swift */; };
 		59F699FA2C2D32E600849538 /* WeakProxyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F699EC2C2D32E500849538 /* WeakProxyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F69A042C2D341300849538 /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F69A032C2D341300849538 /* WeakProxy.swift */; };
+		59F69A082C2D44A500849538 /* WeakProxyLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 59F69A052C2D44A500849538 /* WeakProxyLib.podspec */; };
+		59F69A092C2D44A500849538 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 59F69A062C2D44A500849538 /* README.md */; };
+		59F69A0A2C2D44A500849538 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 59F69A072C2D44A500849538 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,9 @@
 		59F699F32C2D32E600849538 /* WeakProxyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeakProxyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F699F82C2D32E600849538 /* WeakProxyLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxyLibTests.swift; sourceTree = "<group>"; };
 		59F69A032C2D341300849538 /* WeakProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
+		59F69A052C2D44A500849538 /* WeakProxyLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WeakProxyLib.podspec; sourceTree = "<group>"; };
+		59F69A062C2D44A500849538 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		59F69A072C2D44A500849538 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 		59F699DF2C2D32E500849538 = {
 			isa = PBXGroup;
 			children = (
+				59F69A072C2D44A500849538 /* LICENSE */,
+				59F69A062C2D44A500849538 /* README.md */,
+				59F69A052C2D44A500849538 /* WeakProxyLib.podspec */,
 				59F699EB2C2D32E500849538 /* WeakProxyLib */,
 				59F699F72C2D32E600849538 /* WeakProxyLibTests */,
 				59F699EA2C2D32E500849538 /* Products */,
@@ -180,6 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F69A0A2C2D44A500849538 /* LICENSE in Resources */,
+				59F69A092C2D44A500849538 /* README.md in Resources */,
+				59F69A082C2D44A500849538 /* WeakProxyLib.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
