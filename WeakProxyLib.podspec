@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/av-feaster/WeakProxy.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.source_files     = 'WeakProxyLib/**/*.{h,m,swift}'
+  s.swift_versions   = ['5.0'] 
 end
