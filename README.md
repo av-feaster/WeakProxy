@@ -9,7 +9,7 @@
 You can install `WeakProxyLib` via CocoaPods. Add the following line to your Podfile:
 
 ```ruby
-pod 'WeakProxyLib', '~> 0.1.1'
+pod 'WeakProxyLib', '~> 0.1.2'
 ```
 Then, run pod install to integrate the library into your Xcode project.
 
@@ -46,9 +46,9 @@ class ViewController: UIViewController {
 - Ensure proper handling of weak references when using `WeakProxyLib` to prevent retain cycles.
 - Customize and adapt the usage according to your application's specific needs.
 
-## Code
+## Cocoapods
 
-For more detailed documentation and advanced usage scenarios, please refer to the [Code](https://github.com/a4amanver15/WeakProxyLib).
+For more detailed documentation and advanced usage scenarios, please refer to the [Cocoapods](https://cocoapods.org/pods/WeakProxyLib).
 
 ## License
 `WeakProxyLib` is released under the MIT License. See [LICENSE](./LICENSE) for details.
