@@ -9,7 +9,7 @@
 You can install `WeakProxyLib` via CocoaPods. Add the following line to your Podfile:
 
 ```ruby
-pod 'WeakProxyLib', '~> 0.1.0'
+pod 'WeakProxyLib', '~> 0.1.1'
 ```
 Then, run pod install to integrate the library into your Xcode project.
 
